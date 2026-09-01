@@ -1,0 +1,137 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Signup - Hanna's Portfolio</title>
+
+    <link rel="stylesheet" href="hanna_style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Hanna's Portfolio</h1>
+
+        <nav>
+            <a href="hanna_home.html">Home</a>
+            <a href="hanna_about.html">About Me</a>
+            <a href="hanna_gallery.html">My Gallery</a>
+            <a href="hanna_contact.html">Contact Me</a>
+            <a href="hanna_signup.html">Signup</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="form-section">
+
+            <h2>Registration Form</h2>
+
+            <form>
+
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password"
+                       name="confirm_password">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+
+                <label>Gender:</label>
+
+                <div class="options">
+                    <input type="radio" name="gender" value="male"> Male
+
+                    <input type="radio" name="gender" value="female"> Female
+
+                    <input type="radio" name="gender" value="other"> Other
+                </div>
+
+                <label for="address">Address:</label>
+
+                <textarea id="address" name="address"></textarea>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" name="pincode">
+
+                <label for="college">College Name:</label>
+                <input type="text" id="college" name="college">
+
+                <label for="course">Course:</label>
+
+                <select id="course" name="course">
+                    <option>Select Course</option>
+                    <option>B.Tech Computer Science</option>
+                    <option>B.Tech Electronics</option>
+                    <option>B.Tech Electrical</option>
+                    <option>Other</option>
+                </select>
+
+                <label>Skills:</label>
+
+                <div class="options">
+
+                    <input type="checkbox" name="html"> HTML
+
+                    <input type="checkbox" name="css"> CSS
+
+                    <input type="checkbox" name="javascript"> JavaScript
+
+                    <input type="checkbox" name="python"> Python
+
+                </div>
+
+                <label for="photo">Upload Photo:</label>
+
+                <input type="file" id="photo" name="photo">
+
+                <div class="button-container">
+
+                    <input type="submit" value="Register">
+
+                    <input type="reset" value="Clear">
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Hanna's Portfolio | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
